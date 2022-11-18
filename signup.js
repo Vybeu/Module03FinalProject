@@ -1,3 +1,6 @@
+// let signUpEl = document.getElementById('sign-up');
+// let signInEl = document.getElementById('sign-in');
+
 
 function signUp() {
     let usersObj = {};
@@ -16,6 +19,9 @@ function signUp() {
         usersObj.email = email;
         usersObj.password = password;
         console.log(usersObj);
+
+        document.getElementById('sign-up').style.display = 'none';
+        document.getElementById('sign-in').style.display = 'block';
     }
 
 }
