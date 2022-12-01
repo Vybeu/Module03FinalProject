@@ -44,7 +44,7 @@ function logIn() {
     let password = document.getElementById('users-password').value;
 
     if (email === usersObj.email && password === usersObj.password) {
-        window.location.href = 'http://127.0.0.1:5500/account.html';
+        window.location.href = 'account.html';
     } else {
         alert('Incorrect email or password!');
     }
